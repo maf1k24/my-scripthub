@@ -4,9 +4,9 @@
 import { useState } from 'react'
 
 const scripts = {
-  trade: `loadstring(game:HttpGet("https://example.com/trade.lua"))()`,
-  auto: `loadstring(game:HttpGet("https://example.com/auto.lua"))()`,
-  candy: `loadstring(game:HttpGet("https://example.com/candy.lua"))()`
+  trade: `loadstring(game:HttpGet("https://raw.githubusercontent.com/maf1k24/FreezeTradeScritp/refs/heads/main/Loader.lua"))()`,
+  auto: `loadstring(game:HttpGet("https://raw.githubusercontent.com/maf1k24/AutoPhantomEventScript/refs/heads/main/Loader.lua"))()`,
+  candy: `loadstring(game:HttpGet("https://raw.githubusercontent.com/maf1k24/CandyEsp-MiniGame-Script/refs/heads/main/Loader.lua"))()`
 }
 
 type ScriptKey = keyof typeof scripts
